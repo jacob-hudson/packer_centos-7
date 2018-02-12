@@ -27,5 +27,11 @@
       ],
       "shutdown_command": "/sbin/halt -p"
     }
-  ]
+  ],
+  "post-processors": [
+  {
+    "output": "../builds/{{user `box_basename`}}.{{.Provider}}.box",
+    "type": "vagrant"
+  }
+]
 }
