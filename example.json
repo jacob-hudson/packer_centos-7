@@ -61,8 +61,6 @@
         "scripts/networking.sh",
         "scripts/vagrant.sh",
         "scripts/virtualbox.sh",
-        "scripts/vmware.sh",
-        "scripts/parallels.sh",
         "scripts/cleanup.sh",
         "scripts/minimize.sh"
       ],
